@@ -61,9 +61,9 @@ function Note({ value, noteActions }) {
         maxWidth: settings.maxWidth,
         cursor: "pointer",
       }}
-      onClick={() => {
-        noteActions.handleEditClick(value);
-      }}
+      // onClick={() => {
+      //   noteActions.handleEditClick(value);
+      // }}
     >
       <CardHeader
         action={
